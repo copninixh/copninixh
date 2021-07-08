@@ -1,5 +1,5 @@
 ## Hi there 👋
-Cop Kampanart Chaomooltan I'm a student @ Yupparaj Wittayalai School
+Cop Kampanart Chaimooltan I'm a student @ Yupparaj Wittayalai School
 
 Here are some ideas to get you started:
 
