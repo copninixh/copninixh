@@ -7,4 +7,5 @@ Here are some ideas to get you started:
 - 🌱 I’m currently learning NLP , Deep & Machine learning 
 - 📫 How to reach me: kampanart.chai@gmail.com
 - ⚡ Fun fact: Every bug in your code or your life is a good learning
+- 💕 Want to be a good AI Engineering , AI Research , Software Engineering
 
