@@ -1,5 +1,5 @@
-### Hi there 👋
-
+## Hi there 👋
+Cop Kampanart Chaomooltan I'm a student @ Yupparaj Wittayalai School
 <!--
 **copninich/copninich** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
