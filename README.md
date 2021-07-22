@@ -5,7 +5,7 @@ Cop Kampanart Chaimooltan I'm a student @ Yupparaj Wittayalai School
 
 - 🔭 I’m currently working on OCR , Voice Assistant , Programing (Python,C,Js,Ts) , Web Developer(Front & Back)
 - 🌱 I’m currently learning NLP , Deep & Machine learning 
-- 📫 How to reach me: kampanart.chai@gmail.com
+- 📫 How to reach me: devkampanart.ch@gmail.com
 - ⚡ Fun fact: Every bug in your code or your life is a good learning
 - 💕 Want to be a good AI Engineering , AI Research , Software Engineering
 
