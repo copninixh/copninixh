@@ -1,7 +1,7 @@
 ## Copninich@Github: Hi there 👋
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=copninich&hide=issues&theme=dracula&show_icons=true) [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=copninich&layout=compact&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
 
-Cop Kampanart Chaimooltan I'm a student @ Yupparaj Wittayalai School
+Cop Kampanart Chaimooltan I'm a student @ Yupparaj Wittayalai School and developer @ YRC TECH 
 
 - 🔭 I’m currently working on OCR , Voice Assistant , Programing (Python,C,Js,Ts) , Web Developer(Front & Back)
 - 🌱 I’m currently learning NLP , Deep & Machine learning 
