@@ -1,6 +1,18 @@
-<h1>Sawasdee Hi I'm Cop</h1>
+<p align="center"><img src="Copninich (1).svg" /></p>
+<h1 align="center">Sawasdee Hi I'm Cop</h1>
+<p align="center">I'm Student @ Yupparaj Wittayalai School</p>
+
 <p>Welcome to GitHub profile page!</p>
-<p>I'm Student @ Yupparaj Wittayalai School</p>
+
+- 🌱 &nbsp;I’m currently learning NLP,ML,DL
+- 🔭 &nbsp;I’m currently working on NLP
+- 💬 &nbsp;Ask me about anything related to ML/DL/OCR/Web dev/Programing and little bit about NLP
+- 👨‍💻 &nbsp;Read more about my projects at
+- ⚡ &nbsp;Fun fact
+
+
+
+
 
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white" /> <img src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" /> <img src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white" /> <img src="https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white" />
 
