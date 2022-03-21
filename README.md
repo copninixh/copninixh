@@ -1,6 +1,6 @@
 <p align="center"><img src="Copninich (1).svg" /></p>
 <h3 align="center">Sawasdee Hi I'm Cop</h3>
-<p align="center">I'm Student @ Yupparaj Wittayalai School</p>
+<p align="center">I'm High school student @ Yupparaj Wittayalai School</p>
 <hr/>
 <p>Welcome to GitHub profile page!</p>
 
