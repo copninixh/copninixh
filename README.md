@@ -9,6 +9,7 @@
 - 💬 &nbsp;Ask me about anything related to ML/DL/OCR/Web dev/Programing and little bit about NLP
 - 👨‍💻 &nbsp;Read more about my projects at
 - ⚡ &nbsp;Fun fact
+- ✏️ &nbsp; <a href="https://github.com/yrctech">@YRCTECH</a> Contributor [2019-2021]
 <hr/>
 
 
