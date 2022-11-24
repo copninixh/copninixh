@@ -1,4 +1,4 @@
-<p align="center"><img src="copninich_logo.gif" /></p>
+<p align="center"><img src="copninich_logo.gif" width="75%"/></p>
 <h3 align="center">Sawasdee Hi I'm Cop</h3>
 <p align="center">I'm student @ Faculty of Engineering, Chulalongkorn University</p>
 <hr/>
