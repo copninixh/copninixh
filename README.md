@@ -2,14 +2,20 @@
 <h3 align="center">Sawasdee Hi I'm Cop</h3>
 <p align="center">I'm student @ Faculty of Engineering, Chulalongkorn University</p>
 <hr/>
-<p>Welcome to GitHub profile page!</p>
 
-- 🌱 &nbsp;I’m currently learning NLP,ML,DL
+- 🌱 &nbsp;I’m currently learning NLP, ML, DL
 - 🔭 &nbsp;I’m currently working on NLP
 - 💬 &nbsp;Ask me about anything related to ML/DL/OCR/Web dev/Programing and little bit about NLP
-- 👨‍💻 &nbsp;Read more about my projects at
+- 👨‍💻 &nbsp; Read more about my projects at <a href="copninich.com">here</a>
 - ⚡ &nbsp;Fun fact
-- ✏️ &nbsp; <a href="https://github.com/yrctech">@YRCTECH</a> Contributor [2019-2021]
+
+<b>Organizations</b>
+
+<a href="https://github.com/yrctech">@YRCTECH</a> as Main contributor [2019-2021]
+
+<a href="#">@ESC-CU</a> [2022-present]
+
+<a href="#">@ChulaPoliticsLab</a> as Main contributor [2022-present]
 <hr/>
 
 
