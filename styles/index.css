@@ -12,10 +12,3 @@ body{
 .shadow{
   box-shadow: 0 0 20px 0 rgb(249 156 169);;
 }
-.animate-spin{
-  -moz-animation: move-clouds-back 200s linear infinite;
-  -ms-animation: move-clouds-back 200s linear infinite;
-  -o-animation: move-clouds-back 200s linear infinite;
-  -webkit-animation: move-clouds-back 200s linear infinite;
-  animation: move-clouds-back 200s linear infinite;
-}
