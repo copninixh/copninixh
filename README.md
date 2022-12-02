@@ -1,6 +1,6 @@
 <p align="center"><img src="copninich_logo.gif" width="75%"/></p>
 <h3 align="center">Sawasdee Hi I'm Cop</h3>
-<p align="center">I'm student @ Faculty of Engineering, Chulalongkorn University</p>
+<p align="center">I'm student at Faculty of Engineering, Chulalongkorn University</p>
 <hr/>
 
 - 🌱 &nbsp;I’m currently learning NLP, ML, DL
@@ -15,7 +15,7 @@
 
 <a href="#">@ESC-CU</a> [2022-present]
 
-<a href="#">@ChulaPoliticsLab</a> as Main contributor [2022-present]
+<a href="https://github.com/Chula-Politics-Lab">@ChulaPoliticsLab</a> as Main contributor [2022-present]
 <hr/>
 
 
