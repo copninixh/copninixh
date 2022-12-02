@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.bg-gradient{
+  background: rgb(234,184,185);
+  background: linear-gradient(90deg, rgba(234,184,185,1) 46%, rgba(224,205,224,1) 91%);
+}
+.font-box{
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+.shadow{
+  box-shadow: 0 0 20px 0 rgb(249 156 169);;
+}
+.animate-spin{
+  -moz-animation: move-clouds-back 200s linear infinite;
+  -ms-animation: move-clouds-back 200s linear infinite;
+  -o-animation: move-clouds-back 200s linear infinite;
+  -webkit-animation: move-clouds-back 200s linear infinite;
+  animation: move-clouds-back 200s linear infinite;
+}

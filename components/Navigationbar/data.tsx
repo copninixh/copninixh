@@ -1,0 +1,1 @@
+export default ["Home", "Portfolio", "Skills", "Interest", "Blog"];
