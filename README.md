@@ -1,6 +1,5 @@
 <p align="center"><img src="copninich_logo.gif" width="75%"/></p>
 <h3 align="center">Sawasdee Hi I'm Cop</h3>
-<p align="center">I'm student at Faculty of Engineering, Chulalongkorn University</p>
 <hr/>
 
 - 🌱 &nbsp;I’m currently learning NLP, ML, DL
