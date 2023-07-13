@@ -4,7 +4,7 @@
 
 - 🌱 &nbsp;I’m currently learning NLP, ML, DL
 - 🔭 &nbsp;I’m currently working on NLP
-- 💬 &nbsp;Ask me about anything related to ML/DL/OCR/Web dev/Programing and little bit about NLP
+- 💬 &nbsp;Ask me about anything related to ML/DL/NLP/OCR/Web dev/Programing
 - 👨‍💻 &nbsp; Read more about my projects at <a href="copninich.com">here</a>
 - ⚡ &nbsp;Fun fact
 
