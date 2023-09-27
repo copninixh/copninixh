@@ -10,7 +10,7 @@ const MySOP= () => {
     
     return(
         <>
-            <div className='columns-1 justify-center mt-[100px]'>
+            <div className='columns-1 justify-center mt-[100px] mb-[100px]'>
                 <h4 className="text-center font-bold text-2xl">Statement of Purpose</h4>
                 <p className='text-center text-gray-custom'>My passionate and intention.</p>
                 <div className="flex justify-center mt-4">
