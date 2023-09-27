@@ -10,8 +10,6 @@ const Banner = () => {
                 <div className="flex items-center justify-center">
 
                     <div className="flex w-1/6 justify-center items-center">
-
-
                         <div className="w-[59px] h-[293px] relative">
                             <div className="w-[59px] h-[293px] left-0 top-0 absolute rounded-[20px] border-2 border-gray-800" />
                             <div className="w-[59px] h-0.5 left-0 top-[22px] absolute bg-gray-800" />
@@ -29,7 +27,6 @@ const Banner = () => {
                     </div>
                     
                     <div className="w-1/2">
-
                         <p className="text-gray-custom text-2xl">Sawasdee</p>
                         <h3 className="text-gray-custom text-4xl font-bold">Cop Kampanart</h3>
                         <p className="text-gray-custom2 mt-4">

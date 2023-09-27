@@ -1,6 +1,6 @@
 import {Typography} from '../../../lib/tailwind'
 import Image from 'next/image';
-import Copninich from '../../../public/copninich.png'
+import Copninich from '/public/copninich.png'
 
 const Footer = () =>{
     return(
