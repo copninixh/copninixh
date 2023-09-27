@@ -1,7 +1,7 @@
 // components/Pills.tsx
 import React from 'react';
 
-const Skill = ({ items }) => {
+const Skill = () => {
   return (
     <>
           <div className='columns-1 justify-center mt-16'>
