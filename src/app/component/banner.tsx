@@ -132,10 +132,10 @@ const Banner = () => {
 
             </div>
 
-            <div className="container mx-auto px-16 mt-[150px] block sm:hidden xl:hidden lg:hidden md:hidden ">
+            <div className="container mx-auto px-8 mt-[120px] block sm:hidden xl:hidden lg:hidden md:hidden ">
                 <div className="grid grid-cols-1 justify-center">
 
-                    <div className="w-full justify-center content-center px-2">
+                    <div className="w-full justify-center content-center px-8">
                         <Image
                             src={Profile}
                             alt="My Profile"
