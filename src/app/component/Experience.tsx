@@ -5,14 +5,14 @@ import React from 'react';
 const Experience = () => {
   return (
     <>
-        <div className='container mx-auto px-20'>
+        <div className='container mx-auto px-8 md:px-20'>
           <div className='columns-1 justify-center mt-[100px]'>
                 <h4 className="text-center font-bold text-2xl">Experiences</h4>
                 <p className='text-center text-gray-custom'>My work and academic experiences</p>
              
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 justify-center mt-10">
-                    <div className="w-full rounded-[20px] border-2 border-black border-opacity-10 px-16 pt-16 pb-16">
+                    <div className="w-full rounded-[20px] border-2 border-black border-opacity-10 px-4 md:px-16 pt-16 pb-16">
                         <ol className="border-l border-neutral-300 dark:border-neutral-500">
                           {/*First item*/}
                           <li>
@@ -75,7 +75,7 @@ const Experience = () => {
 
                     </div>
 
-                    <div className="w-full rounded-[20px] border-2 border-black border-opacity-10 px-16 pt-16 pb-16">
+                    <div className="w-full rounded-[20px] border-2 border-black border-opacity-10 px-4 md:px-16 pt-16 pb-16">
                         <ol className="border-l border-neutral-300 dark:border-neutral-500">
                                                     {/*Third item*/}
                           <li>

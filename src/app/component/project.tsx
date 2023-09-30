@@ -119,19 +119,19 @@ export default function Project() {
   })
 
   return (
-    <div className='container mx-auto px-20'>
+    <div className='container mx-auto px-8 md:px-20'>
       <div className='justify-center mt-16'>
           <h4 className="text-center font-bold text-2xl">Projects</h4>
           <p className='text-center text-gray-custom mb-10'>Projects based learning</p>
 
             <Tab.Group>
-              <Tab.List className="flex space-x-1 rounded-xl p-1">
+              <Tab.List className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 rounded-xl p-1">
                 {Object.keys(categories).map((category) => (
                   <Tab
                     key={category}
                     className={({ selected }) =>
                       classNames(
-                        'w-1/4 rounded-lg py-1 text-sm font-medium leading-5 text-custom',
+                        'w-full rounded-lg py-3 md:py-1 text-sm font-medium leading-5 text-custom',
                         'ring-black ring-opacity-60 ring-offset-2 ring-offset-white-400 focus:outline-none focus:ring-2',
                         selected
                           ? 'bg-custom shadow text-white '

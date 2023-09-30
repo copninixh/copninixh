@@ -4,7 +4,7 @@ import React from 'react';
 const Recommendation = () => {
   return (
     <>
-        <div className='container mx-auto px-20'>
+        <div className='container mx-auto px-8 md:px-20'>
           <div className='columns-1 justify-center mt-16'>
                 <h4 className="text-center font-bold text-2xl">Bringing a personal touch</h4>
                 <p className='text-center text-gray-custom'>My work and academic experiences</p>

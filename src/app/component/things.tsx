@@ -5,7 +5,7 @@ import Image from "next/image";
 const ThingsILove = () =>{
     return(
         <>
-            <div className="container mx-auto px-8 sm:px-16">
+            <div className="container mx-auto px-8 md:px-16">
                 <div className='columns-1 justify-center mt-[100px]'>
                     <h4 className="text-center font-bold text-2xl">Things I love</h4>
                     <p className='text-center text-gray-custom'>My passionate about Technology</p>
