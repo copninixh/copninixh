@@ -85,7 +85,7 @@ export default function Skills() {
           <p className='text-center text-gray-custom'>My technical skills</p>
         <div className="w-full px-2 py-10 sm:px-0">
           <Tab.Group>
-            <Tab.List className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 rounded-xl p-1">
+            <Tab.List className="grid grid-cols-1 md:gap-2 md:grid-cols-2 lg:grid-cols-4 rounded-xl p-1">
               {Object.keys(categories).map((category) => (
                 <Tab
                   key={category}
