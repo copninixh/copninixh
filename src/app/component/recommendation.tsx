@@ -10,13 +10,13 @@ const Recommendation = () => {
                 <p className='text-center text-gray-custom'>My work and academic experiences</p>
              
 
-                <div className="flex flex-row gap-8 justify-center mt-10">
-                    <div className="w-1/2 rounded-[20px] border-2 shadow px-16 pt-16 pb-16 text-center">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 justify-center mt-10">
+                    <div className="w-full rounded-[20px] border-2 shadow px-16 pt-16 pb-16 text-center">
                         <i className="fal fa-microchip text-7xl"></i>
                         <p className='text-center mt-3 font-semibold'>Machine Learning</p>
                     </div>
 
-                    <div className="w-1/2 rounded-[20px] border-2 shadow px-16 pt-16 pb-16 text-center">
+                    <div className="w-full rounded-[20px] border-2 shadow px-16 pt-16 pb-16 text-center">
                         <i className="fal fa-microchip text-7xl"></i>
                         <p className='text-center mt-3 font-semibold'>Machine Learning</p>
                     </div>

@@ -6,7 +6,7 @@ import Profile from '/public/profile.png'
 const Banner = () => {
     return (
         <>
-            <div className="container mx-auto px-6 mt-10">
+            <div className="container mx-auto px-6 mt-[100px] hidden xl:block">
                 <div className="flex items-center justify-center">
 
                     <div className="flex w-1/6 justify-center items-center">
@@ -25,6 +25,7 @@ const Banner = () => {
                             </div>
                         </div>
                     </div>
+                  
                     
                     <div className="w-1/2">
                         <p className="text-gray-custom text-2xl">Sawasdee</p>
@@ -41,7 +42,7 @@ const Banner = () => {
                         <Image
                             src={Profile}
                             alt="My Profile"
-                            className="w-3/4"
+                            className="w-3/5"
                         />
                     </div>
                 </div>
@@ -49,6 +50,114 @@ const Banner = () => {
                     <i className="far fa-level-down-alt text-3xl"></i>
                     <p>Scroll Down</p>
                 </div>
+            </div>
+
+            <div className="container mx-auto px-6 mt-[100px] hidden xl:hidden lg:block">
+                <div className="flex items-center justify-center">
+                    <div className="w-1/2">
+                        <p className="text-gray-custom text-2xl">Sawasdee</p>
+                        <h3 className="text-gray-custom text-4xl font-bold">Cop Kampanart</h3>
+                        <p className="text-gray-custom2 mt-4">
+                            Hi, I&apos;m a high school graduate from Thailand. <br/>
+                            I have conducted research and developed a keen  <br/>
+                            interest in ML, DL, NLP, Tabular Data, and Data Science.
+                        </p>
+                        <Button variant="filled" className='button-color button-text mt-4'><i className="fal fa-file-alt"></i>&nbsp; My Resume</Button>
+                    </div>
+            
+                    <div className="flex w1/2 justify-end items-end">
+                        <Image
+                            src={Profile}
+                            alt="My Profile"
+                            className="w-3/5"
+                        />
+                    </div>
+                </div>
+            </div>
+
+
+            <div className="container mx-auto px-16 mt-[150px] hidden xl:hidden lg:hidden md:block">
+                <div className="flex items-center justify-center">
+
+            
+                  
+                    
+                    <div className="w-1/2">
+                        <p className="text-gray-custom text-2xl">Sawasdee</p>
+                        <h3 className="text-gray-custom text-4xl font-bold">Cop Kampanart</h3>
+                        <p className="text-gray-custom2 mt-4">
+                            Hi, I&apos;m a high school graduate from Thailand. <br/>
+                            I have conducted research and developed a keen  <br/>
+                            interest in ML, DL, NLP, Tabular Data, and Data Science.
+                        </p>
+                        <Button variant="filled" className='button-color button-text mt-4'><i className="fal fa-file-alt"></i>&nbsp; My Resume</Button>
+                    </div>
+            
+                    <div className="flex w-1/2 justify-end items-end">
+                        <Image
+                            src={Profile}
+                            alt="My Profile"
+                            className="w-4/5"
+                        />
+                    </div>
+                </div>
+
+            </div>
+
+            <div className="container mx-auto px-16 mt-[150px] hidden sm:block xl:hidden lg:hidden md:hidden ">
+                <div className="grid grid-cols-1 justify-center">
+
+                    <div className="w-full justify-center content-center px-8">
+                        <Image
+                            src={Profile}
+                            alt="My Profile"
+                            className="w-full"
+                        />
+                    </div>
+                  
+                    
+                    <div className="w-full mt-10">
+                        <p className="text-gray-custom text-2xl">Sawasdee</p>
+                        <h3 className="text-gray-custom text-4xl font-bold">Cop Kampanart</h3>
+                        <p className="text-gray-custom2 mt-4">
+                            Hi, I&apos;m a high school graduate from Thailand. <br/>
+                            I have conducted research and developed a keen  <br/>
+                            interest in ML, DL, NLP, Tabular Data, and Data Science.
+                        </p>
+                        <Button variant="filled" className='button-color button-text mt-4'><i className="fal fa-file-alt"></i>&nbsp; My Resume</Button>
+                    </div>
+            
+                    
+                </div>
+
+            </div>
+
+            <div className="container mx-auto px-16 mt-[150px] block sm:hidden xl:hidden lg:hidden md:hidden ">
+                <div className="grid grid-cols-1 justify-center">
+
+                    <div className="w-full justify-center content-center px-2">
+                        <Image
+                            src={Profile}
+                            alt="My Profile"
+                            className="w-full"
+                        />
+                    </div>
+                  
+                    
+                    <div className="w-full mt-10">
+                        <p className="text-gray-custom text-2xl">Sawasdee</p>
+                        <h3 className="text-gray-custom text-4xl font-bold">Cop Kampanart</h3>
+                        <p className="text-gray-custom2 mt-4">
+                            Hi, I&apos;m a high school graduate from Thailand. <br/>
+                            I have conducted research and developed a keen  <br/>
+                            interest in ML, DL, NLP, Tabular Data, and Data Science.
+                        </p>
+                        <Button variant="filled" className='button-color button-text mt-4'><i className="fal fa-file-alt"></i>&nbsp; My Resume</Button>
+                    </div>
+            
+                    
+                </div>
+
             </div>
         </>
 

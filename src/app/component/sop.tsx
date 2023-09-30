@@ -12,7 +12,7 @@ const MySOP= () => {
         <>
             <div className='columns-1 justify-center mt-[100px] mb-[100px]'>
                 <h4 className="text-center font-bold text-2xl">Statement of Purpose</h4>
-                <p className='text-center text-gray-custom'>My passionate and intention.</p>
+                <p className='text-center text-gray-custom'>It stands the test of time, it’s never weak, never brief</p>
                 <div className="flex justify-center mt-4">
                     <Button variant="filled" className='button-color button-text'><i className="fal fa-file-alt"></i>&nbsp; My SOP</Button>
                 </div>

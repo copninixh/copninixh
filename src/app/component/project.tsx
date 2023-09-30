@@ -3,6 +3,9 @@
 
 import React from 'react';
 import { Tab } from '@headlessui/react'
+import Image from 'next/image';
+import THND from '/public/thnd.png'
+import {Button} from '../../../lib/tailwind'
 
 import { useState } from 'react'
 
@@ -11,22 +14,34 @@ function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
 }
 
+function createMarkup(text: string[]) {
+  return { __html: text };
+}
+
 export default function Project() {
   let [categories] = useState({
     "All": [
       {
         id: 1,
-        title: 'Does drinking coffee make you smarter?',
+        title: 'THND-ThaiHoo OCR',
         date: '5h ago',
         commentCount: 5,
         shareCount: 2,
+        img_source: "/thnd.png",
+        project_detail: "THND OCR (Thai National Documents) is an OCR tool for reading Thai national documents. This OCR tool is fine-tuned on Tesseract an open source with a training set of 50k sentences, in addition to, validations set of 10k sentences",
+        first_button: "<Button variant=filled' className='button-color button-text'><i className='fal fa-file-alt'></i>&nbsp; My SOP</Button>",
+        second_button: "",
       },
       {
         id: 2,
-        title: "So you've bought coffee... now what?",
+        title: "AeraX Valley x Fondue",
         date: '2h ago',
         commentCount: 3,
         shareCount: 2,
+        img_source: "/thnd.png",
+        project_detail: "",
+        first_button: "",
+        second_button: "",
       },
     ],
     "Machine Learning": [
@@ -36,6 +51,10 @@ export default function Project() {
         date: 'Jan 7',
         commentCount: 29,
         shareCount: 16,
+        img_source: "/public/thnd.png",
+        project_detail: "",
+        first_button: "",
+        second_button: "",
       },
       {
         id: 2,
@@ -43,6 +62,10 @@ export default function Project() {
         date: 'Mar 19',
         commentCount: 24,
         shareCount: 12,
+        img_source: "/public/thnd.png",
+        project_detail: "",
+        first_button: "",
+        second_button: "",
       },
     ],
     "Web Develop": [
@@ -52,6 +75,10 @@ export default function Project() {
         date: '2d ago',
         commentCount: 9,
         shareCount: 5,
+        img_source: "/public/thnd.png",
+        project_detail: "",
+        first_button: "",
+        second_button: "",
       },
       {
         id: 2,
@@ -59,6 +86,10 @@ export default function Project() {
         date: '4d ago',
         commentCount: 1,
         shareCount: 2,
+        img_source: "/public/thnd.png",
+        project_detail: "",
+        first_button: "",
+        second_button: "",
       },
     ],
     "Microcontroller": [
@@ -68,6 +99,10 @@ export default function Project() {
         date: '2d ago',
         commentCount: 9,
         shareCount: 5,
+        img_source: "/public/thnd.png",
+        project_detail: "",
+        first_button: "",
+        second_button: "",
       },
       {
         id: 2,
@@ -75,79 +110,87 @@ export default function Project() {
         date: '4d ago',
         commentCount: 1,
         shareCount: 2,
+        img_source: "/public/thnd.png",
+        project_detail: "",
+        first_button: "",
+        second_button: "",
       },
     ],
   })
 
   return (
     <div className='container mx-auto px-20'>
-      <div className='columns-1 justify-center mt-16'>
+      <div className='justify-center mt-16'>
           <h4 className="text-center font-bold text-2xl">Projects</h4>
-          <p className='text-center text-gray-custom'>Projects based learning</p>
-        <div className="w-full px-2 py-10 sm:px-0">
-          <Tab.Group>
-            <Tab.List className="flex space-x-1 rounded-xl  p-1">
-              {Object.keys(categories).map((category) => (
-                <Tab
-                  key={category}
-                  className={({ selected }) =>
-                    classNames(
-                      'w-1/4 rounded-lg py-1 text-sm font-medium leading-5 text-custom',
-                      'ring-black ring-opacity-60 ring-offset-2 ring-offset-white-400 focus:outline-none focus:ring-2',
-                      selected
-                        ? 'bg-custom shadow text-white '
-                        : 'hover:text-custom'
-                    )
-                  }
-                >
-                  {category}
-                </Tab>
-              ))}
-            </Tab.List>
-            <Tab.Panels className="mt-2">
-              {Object.values(categories).map((posts, idx) => (
-                <Tab.Panel
-                  key={idx}
-                  className={classNames(
-                    'rounded-xl bg-white p-3',
-                    'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2'
-                  )}
-                >
-                  <ul>
-                    {posts.map((post) => (
-                      <li
-                        key={post.id}
-                        className="relative rounded-md p-3 hover:bg-gray-100"
-                      >
-                        <h3 className="text-sm font-medium leading-5">
-                          {post.title}
-                        </h3>
+          <p className='text-center text-gray-custom mb-10'>Projects based learning</p>
 
-                        <ul className="mt-1 flex space-x-1 text-xs font-normal leading-4 text-gray-500">
-                          <li>{post.date}</li>
-                          <li>&middot;</li>
-                          <li>{post.commentCount} comments</li>
-                          <li>&middot;</li>
-                          <li>{post.shareCount} shares</li>
-                        </ul>
+            <Tab.Group>
+              <Tab.List className="flex space-x-1 rounded-xl p-1">
+                {Object.keys(categories).map((category) => (
+                  <Tab
+                    key={category}
+                    className={({ selected }) =>
+                      classNames(
+                        'w-1/4 rounded-lg py-1 text-sm font-medium leading-5 text-custom',
+                        'ring-black ring-opacity-60 ring-offset-2 ring-offset-white-400 focus:outline-none focus:ring-2',
+                        selected
+                          ? 'bg-custom shadow text-white '
+                          : 'hover:text-custom'
+                      )
+                    }
+                  >
+                    {category}
+                  </Tab>
+                ))}
+              </Tab.List>
+              <Tab.Panels>
 
-                        <a
-                          href="#"
-                          className={classNames(
-                            'absolute inset-0 rounded-md',
-                            'ring-blue-400 focus:z-10 focus:outline-none focus:ring-2'
-                          )}
-                        />
-                      </li>
-                    ))}
-                  </ul>
-                </Tab.Panel>
-              ))}
-            </Tab.Panels>
-          </Tab.Group>
-        </div>
+              
+                {Object.values(categories).map((posts, idx) => (
+                  <Tab.Panel
+                    key={idx}
+                    className={classNames(
+                      'rounded-xl bg-white p-3',
+                    
+                    )}
+                  >
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+                      {posts.map((post) => (
+
+
+                        <div key={post.id} className="w-full rounded-[20px] border-2 shadow pb-16 mb-10 mt-10">
+   
+                                <Image 
+                                  src={post.img_source}
+                                  alt=""
+                                  width={600}
+                                  height={500}
+                                  className='w-screen left-0 top-0 rounded-tl-[20px] rounded-tr-[20px]'
+                                
+
+                                />
+                        
+                                <div className='px-6'>
+                                  <p className='text-xl mt-7 font-semibold'>{post.title}</p>
+                                  <p className='mt-3 text-justify'>{post.project_detail}</p>
+                                  
+                                  <Button variant="filled" className='button-color button-text mt-3'><i className="fab fa-github text-white" style={{fontSize:"14px"}}></i>&nbsp; Github Repository</Button>
+                                </div>
+
+                        </div>
+
+                      ))}
+                    </div>
+
+                     
+                  </Tab.Panel>
+                ))}
+     
+               
+              </Tab.Panels>
+            </Tab.Group>
+          </div>
       </div>
-    </div>
   )
 }
 
