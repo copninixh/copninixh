@@ -8,7 +8,7 @@ interface ProvidersProps {
 }
 
 const Providers: React.FC<ProvidersProps> = ({ children }) =>{
-    return <ThemeProvider>{children}</ThemeProvider>
+    return <ThemeProvider attribute="class">{children}</ThemeProvider>
 }
 
 export default Providers

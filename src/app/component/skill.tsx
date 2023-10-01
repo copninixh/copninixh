@@ -82,7 +82,7 @@ export default function Skills() {
     <div className='container mx-auto px-8 md:px-20'>
       <div className='columns-1 justify-center mt-[100px]'>
           <h4 className="text-center font-bold text-2xl">Skills</h4>
-          <p className='text-center text-gray-custom'>My technical skills</p>
+          <p className='text-center text-gray-custom dark:text-[#94a3b8]'>My technical skills</p>
         <div className="w-full px-2 py-10 sm:px-0">
           <Tab.Group>
             <Tab.List className="grid grid-cols-1 md:gap-2 md:grid-cols-2 lg:grid-cols-4 rounded-xl p-1">
@@ -92,9 +92,9 @@ export default function Skills() {
                   className={({ selected }) =>
                     classNames(
                       'w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-custom',
-                      'ring-black border-2 border-gray-800 focus:outline-none mb-3 sm:mb-0',
+                      'ring-black border-2 border-gray-800 dark:border-[#0f172a] focus:outline-none mb-3 sm:mb-0',
                       selected
-                        ? 'bg-custom shadow text-white '
+                        ? 'bg-custom dark:bg-[#003D7C] shadow text-white '
                         : 'hover:text-custom'
                     )
                   }
@@ -108,8 +108,8 @@ export default function Skills() {
                 <Tab.Panel
                   key={idx}
                   className={classNames(
-                    'rounded-xl bg-white p-3',
-                    'border-2 border-black border-opacity-10'
+                    'rounded-xl bg-white p-3 dark:bg-[#121212]',
+                    'border-2 border-black border-opacity-10 dark:border-[#94a3b8]'
                   )}
                 >
                   <ul>

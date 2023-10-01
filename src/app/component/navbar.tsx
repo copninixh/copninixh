@@ -25,7 +25,7 @@ const Navbar = () => {
   };
   return (
     <nav className='fixed top-0 w-full h-20 z-[100]'>
-        <div className='flex justify-between items-center h-full w-full px-4 lg:px-24'>
+        <div className='flex justify-between items-center h-full w-full px-4 lg:px-24 bg-white dark:bg-[#121212]'>
             <div className='flex items-center gap-2'>
                 <Link href="/">
                 {resolvedTheme === 'dark'?(

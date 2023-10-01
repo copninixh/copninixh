@@ -122,7 +122,7 @@ export default function Project() {
     <div className='container mx-auto px-8 md:px-20'>
       <div className='justify-center mt-16'>
           <h4 className="text-center font-bold text-2xl">Projects</h4>
-          <p className='text-center text-gray-custom mb-10'>Projects based learning</p>
+          <p className='text-center text-gray-custom mb-10 dark:text-[#94a3b8]'>Projects based learning</p>
 
             <Tab.Group>
               <Tab.List className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 rounded-xl p-1">
@@ -134,7 +134,7 @@ export default function Project() {
                         'w-full rounded-lg py-3 md:py-1 text-sm font-medium leading-5 text-custom',
                         'ring-black ring-opacity-60 ring-offset-2 ring-offset-white-400 focus:outline-none focus:ring-2',
                         selected
-                          ? 'bg-custom shadow text-white '
+                          ? 'bg-custom dark:bg-[#003D7C] shadow text-white '
                           : 'hover:text-custom'
                       )
                     }
@@ -150,7 +150,7 @@ export default function Project() {
                   <Tab.Panel
                     key={idx}
                     className={classNames(
-                      'rounded-xl bg-white p-3',
+                      'rounded-xl p-3',
                     
                     )}
                   >
@@ -158,7 +158,7 @@ export default function Project() {
                       {posts.map((post) => (
 
 
-                        <div key={post.id} className="w-full rounded-[20px] border-2 shadow pb-16 mb-10 mt-10">
+                        <div key={post.id} className="w-full rounded-[20px] border-2 dark:border-[#94a3b8] shadow pb-16 mb-10 mt-10">
    
                                 <Image 
                                   src={post.img_source}

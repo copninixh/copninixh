@@ -7,7 +7,7 @@ const Recommendation = () => {
         <div className='container mx-auto px-8 md:px-20'>
           <div className='columns-1 justify-center mt-16'>
                 <h4 className="text-center font-bold text-2xl">Bringing a personal touch</h4>
-                <p className='text-center text-gray-custom'>My work and academic experiences</p>
+                <p className='text-center text-gray-custom dark:text-[#94a3b8]'>My work and academic experiences</p>
              
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 justify-center mt-10">

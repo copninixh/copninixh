@@ -11,8 +11,10 @@ import Skill from './component/skill'
 import Experience from './component/Experience'
 import Project from './component/project'
 import Recommendation from './component/recommendation'
-import Loading from './loading'
 import Providers from './provider'
+
+
+
 
 const poppins = Poppins({ subsets: ['latin'], weight: ["400", "500", "600", "700"] })
 
@@ -21,7 +23,9 @@ export const metadata: Metadata = {
   description: 'Kampanart Personal Website',
 }
 
-const pillItems = ['React', 'Next.js', 'Tailwind CSS', 'Components'];
+
+
+
 
 export default function RootLayout({
   

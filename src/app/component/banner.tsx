@@ -12,16 +12,16 @@ const Banner = () => {
 
                     <div className="flex w-1/6 justify-center items-center">
                         <div className="w-[59px] h-[293px] relative">
-                            <div className="w-[59px] h-[293px] left-0 top-0 absolute rounded-[20px] border-2 border-gray-800" />
-                            <div className="w-[59px] h-0.5 left-0 top-[22px] absolute bg-gray-800" />
-                            <div className="w-[13px] h-[13px] left-[23px] top-[245px] absolute bg-gray-800 rounded-full" />
-                            <div className="left-[19px] top-[60px] absolute text-black text-xl font-normal">
+                            <div className="w-[59px] h-[293px] left-0 top-0 absolute rounded-[20px] border-2 border-gray-800 dark:border-white" />
+                            <div className="w-[59px] h-0.5 left-0 top-[22px] absolute bg-gray-800 dark:bg-white" />
+                            <div className="w-[13px] h-[13px] left-[23px] top-[245px] absolute bg-gray-800 rounded-full dark:bg-white" />
+                            <div className="left-[19px] top-[60px] absolute text-black dark:text-white text-xl font-normal">
                                 <i className="fab fa-github"></i>
                             </div>
-                            <div className="left-[20px] top-[119px] absolute text-black text-xl font-normal">
+                            <div className="left-[20px] top-[119px] absolute text-black dark:text-white text-xl font-normal">
                                 <i className="fab fa-linkedin-in"></i>
                             </div>
-                            <div className="left-[19px] top-[179px] absolute text-black text-xl font-normal">
+                            <div className="left-[19px] top-[179px] absolute text-black dark:text-white text-xl font-normal">
                                 <i className="far fa-envelope"></i>
                             </div>
                         </div>
@@ -29,14 +29,14 @@ const Banner = () => {
                   
                     
                     <div className="w-1/2">
-                        <p className="text-gray-custom text-2xl">Sawasdee</p>
-                        <h3 className="text-gray-custom text-4xl font-bold">Cop Kampanart</h3>
-                        <p className="text-gray-custom2 mt-4">
+                        <p className="text-gray-custom text-2xl dark:text-[#94a3b8]">Sawasdee</p>
+                        <h3 className="text-gray-custom text-4xl font-bold dark:text-white">Cop Kampanart</h3>
+                        <p className="text-gray-custom2 mt-4 dark:text-[#94a3b8]">
                             Hi, I&apos;m a high school graduate from Thailand. <br/>
                             I have conducted research and developed a keen  <br/>
                             interest in ML, DL, NLP, Tabular Data, and Data Science.
                         </p>
-                        <Button variant="filled" className='button-color button-text mt-4'><i className="fal fa-file-alt"></i>&nbsp; My Resume</Button>
+                        <Button variant="filled" className='bg-[#192635] dark:bg-[#003D7C] button-color button-text mt-4'><i className="fal fa-file-alt"></i>&nbsp; My Resume</Button>
                     </div>
             
                     <div className="flex w1/2 justify-end items-end">
@@ -63,7 +63,7 @@ const Banner = () => {
                             I have conducted research and developed a keen  <br/>
                             interest in ML, DL, NLP, Tabular Data, and Data Science.
                         </p>
-                        <Button variant="filled" className='button-color button-text mt-4'><i className="fal fa-file-alt"></i>&nbsp; My Resume</Button>
+                        <Button variant="filled" className='bg-[#192635] dark:bg-[#003D7C] button-color button-text mt-4'><i className="fal fa-file-alt"></i>&nbsp; My Resume</Button>
                     </div>
             
                     <div className="flex w1/2 justify-end items-end">
@@ -91,7 +91,7 @@ const Banner = () => {
                             I have conducted research and developed a keen  <br/>
                             interest in ML, DL, NLP, Tabular Data, and Data Science.
                         </p>
-                        <Button variant="filled" className='button-color button-text mt-4'><i className="fal fa-file-alt"></i>&nbsp; My Resume</Button>
+                        <Button variant="filled" className='bg-[#192635] dark:bg-[#003D7C] button-color button-text mt-4'><i className="fal fa-file-alt"></i>&nbsp; My Resume</Button>
                     </div>
             
                     <div className="flex w-1/2 justify-end items-end">
@@ -125,7 +125,7 @@ const Banner = () => {
                             I have conducted research and developed a keen  <br/>
                             interest in ML, DL, NLP, Tabular Data, and Data Science.
                         </p>
-                        <Button variant="filled" className='button-color button-text mt-4'><i className="fal fa-file-alt"></i>&nbsp; My Resume</Button>
+                        <Button variant="filled" className='bg-[#192635] dark:bg-[#003D7C] button-color button-text mt-4'><i className="fal fa-file-alt"></i>&nbsp; My Resume</Button>
                     </div>
             
                     
