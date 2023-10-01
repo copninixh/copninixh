@@ -84,9 +84,9 @@ const Banner = () => {
                   
                     
                     <div className="w-1/2">
-                        <p className="text-gray-custom text-2xl">Sawasdee</p>
-                        <h3 className="text-gray-custom text-4xl font-bold">Cop Kampanart</h3>
-                        <p className="text-gray-custom2 mt-4">
+                        <p className="text-gray-custom text-2xl dark:text-[#94a3b8]">Sawasdee</p>
+                        <h3 className="text-gray-custom text-4xl font-bold dark:text-white">Cop Kampanart</h3>
+                        <p className="text-gray-custom2 mt-4 dark:text-[#94a3b8]">
                             Hi, I&apos;m a high school graduate from Thailand. <br/>
                             I have conducted research and developed a keen  <br/>
                             interest in ML, DL, NLP, Tabular Data, and Data Science.
@@ -118,9 +118,9 @@ const Banner = () => {
                   
                     
                     <div className="w-full mt-10">
-                        <p className="text-gray-custom text-2xl">Sawasdee</p>
-                        <h3 className="text-gray-custom text-4xl font-bold">Cop Kampanart</h3>
-                        <p className="text-gray-custom2 mt-4">
+                        <p className="text-gray-custom text-2xl dark:text-[#94a3b8]">Sawasdee</p>
+                        <h3 className="text-gray-custom text-4xl font-bold dark:text-white">Cop Kampanart</h3>
+                        <p className="text-gray-custom2 mt-4 dark:text-[#94a3b8]">
                             Hi, I&apos;m a high school graduate from Thailand. <br/>
                             I have conducted research and developed a keen  <br/>
                             interest in ML, DL, NLP, Tabular Data, and Data Science.
@@ -146,14 +146,14 @@ const Banner = () => {
                   
                     
                     <div className="w-full mt-10">
-                        <p className="text-gray-custom text-2xl">Sawasdee</p>
-                        <h3 className="text-gray-custom text-4xl font-bold">Cop Kampanart</h3>
-                        <p className="text-gray-custom2 mt-4">
+                        <p className="text-gray-custom text-2xl dark:text-[#94a3b8]">Sawasdee</p>
+                        <h3 className="text-gray-custom text-4xl font-bold dark:text-white">Cop Kampanart</h3>
+                        <p className="text-gray-custom2 mt-4 dark:text-[#94a3b8]">
                             Hi, I&apos;m a high school graduate from Thailand. <br/>
                             I have conducted research and developed a keen  <br/>
                             interest in ML, DL, NLP, Tabular Data, and Data Science.
                         </p>
-                        <Button variant="filled" className='button-color button-text mt-4'><i className="fal fa-file-alt"></i>&nbsp; My Resume</Button>
+                        <Button variant="filled" className='bg-[#192635] dark:bg-[#003D7C] button-color button-text mt-4'><i className="fal fa-file-alt"></i>&nbsp; My Resume</Button>
                     </div>
             
                     
