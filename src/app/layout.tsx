@@ -12,6 +12,7 @@ import Experience from './component/Experience'
 import Project from './component/project'
 import Recommendation from './component/recommendation'
 import Loading from './loading'
+import Providers from './provider'
 
 const poppins = Poppins({ subsets: ['latin'], weight: ["400", "500", "600", "700"] })
 
@@ -34,16 +35,20 @@ export default function RootLayout({
         <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet" />
       </head>
       <body className={poppins.className}>
-        {/* <NavbarDefault/> */}
-        <Navbar/>
-        <Banner/>
-        <ThingsILove/>
-        <Skill />
-        <Experience/>
-        <Project/>
-        <Recommendation/>
-        <MySOP/>
-        <Footer/>
+        <Providers>
+          <Navbar/>
+          <Banner/>
+          <ThingsILove/>
+          <Skill />
+          <Experience/>
+          <Project/>
+          <Recommendation/>
+          <MySOP/>
+          <Footer/>
+          {children}
+        </Providers>
+
+
         {children}
       </body>
     </html>
