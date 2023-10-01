@@ -1,22 +1,10 @@
-"use client";
 import Link from "next/link";
 import Image from "next/image";
 import {Button} from '../../../lib/tailwind'
 import Profile from '/public/profile.png'
-import { init } from "ityped";
-import {Component, useEffect, useRef, useState} from 'react'
+
 
 const Banner = () => {
-    const textRef = useRef();
- 
-    useEffect(()=>{
-        init(textRef.current,{
-            showCursor:true,
-            backDelay: 1500,
-            backSpeed:60,
-            strings: ["Cop Kampanart", "Copninich", "CopGPT"],
-        });
-    },[]);
     return (
         <>
             <div className="container mx-auto px-6 mt-[100px] hidden xl:block">
@@ -42,7 +30,7 @@ const Banner = () => {
                     
                     <div className="w-1/2">
                         <p className="text-gray-custom text-2xl">Sawasdee</p>
-                        <h3 className="text-gray-custom text-4xl font-bold"><span ref={textRef}></span></h3>
+                        <h3 className="text-gray-custom text-4xl font-bold">Cop Kampanart</h3>
                         <p className="text-gray-custom2 mt-4">
                             Hi, I&apos;m a high school graduate from Thailand. <br/>
                             I have conducted research and developed a keen  <br/>
@@ -69,7 +57,7 @@ const Banner = () => {
                 <div className="flex items-center justify-center">
                     <div className="w-1/2">
                         <p className="text-gray-custom text-2xl">Sawasdee</p>
-                        <h3 className="text-gray-custom text-4xl font-bold"><span ref={textRef}></span></h3>
+                        <h3 className="text-gray-custom text-4xl font-bold">Cop Kampanart</h3>
                         <p className="text-gray-custom2 mt-4">
                             Hi, I&apos;m a high school graduate from Thailand. <br/>
                             I have conducted research and developed a keen  <br/>
