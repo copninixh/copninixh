@@ -14,9 +14,12 @@
     "@heroicons/react": "^2.0.18",
     "@material-tailwind/react": "^2.1.2",
     "heroicons": "^2.0.18",
+    "ityped": "^1.0.3",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-icons": "^4.11.0",
+    "react-loading-skeleton": "^3.3.1"
   },
   "devDependencies": {
     "@types/node": "latest",

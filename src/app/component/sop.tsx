@@ -1,3 +1,4 @@
+"use client";
 import {Button} from '../../../lib/tailwind'
 import Image from 'next/image';
 import CopninichPurpose1 from '/public/cop_01.png'
@@ -5,9 +6,12 @@ import CopninichPurpose2 from '/public/cop_02.png'
 import CopninichPurpose3 from '/public/cop_03.png'
 import CopninichPurpose4 from '/public/cop_04.png'
 import CopninichPurpose5 from '/public/cop_05.png'
+import { useState } from 'react';
+
+const longtext = "This is your long text that you want to display. It can be as long as you need it to be.";
 
 const MySOP= () => {
-    
+    const [showMore, setShowMore] = useState(false);
     return(
         <>
         <div className='container mx-auto px-8 md:px-20 hidden sm:block xl:block lg:block md:block'>
@@ -60,6 +64,32 @@ const MySOP= () => {
                     </div>
 
 
+                </div>
+
+                <div className="relative mt-5 text-justify">
+                    <p className={`transition-opacity ${showMore ? 'opacity-100 h-auto' : 'opacity-50 h-16'} overflow-hidden`}>
+                        &nbsp;&nbsp;&nbsp;An engineer is a builder. Additionally, technology and engineering have many roles. Based on this statement and the current world situations, it is a point that inspires me, in addition to my passion for learning about computer science.<br/>
+                        &nbsp;&nbsp;&nbsp;Today, the way to develop, transform, and move forward my country and the world in the 21st century is through the development of science, technology, and innovation, especially in the field of computer science.
+                        Today, the way to develop, transform, and move forward my country and the world in the 21st century is through the development of science, technology, and innovation, especially in the field of computer science.
+                        Today, the way to develop, transform, and move forward my country and the world in the 21st century is through the development of science, technology, and innovation, especially in the field of computer science.
+                        Today, the way to develop, transform, and move forward my country and the world in the 21st century is through the development of science, technology, and innovation, especially in the field of computer science.
+                        Today, the way to develop, transform, and move forward my country and the world in the 21st century is through the development of science, technology, and innovation, especially in the field of computer science.
+                        Today, the way to develop, transform, and move forward my country and the world in the 21st century is through the development of science, technology, and innovation, especially in the field of computer science.
+                        Today, the way to develop, transform, and move forward my country and the world in the 21st century is through the development of science, technology, and innovation, especially in the field of computer science.
+                    </p>
+                    {!showMore && (
+                        <div
+                        className="text-center bg-gradient-to-b from-white to-white"
+                        
+                        >
+                        <button
+                            onClick={() => setShowMore(true)}
+                            className="px-4  border-2 border-gray-800 rounded-[20px] mt-2"
+                        >
+                            Read More
+                        </button>
+                        </div>
+                    )}
                 </div>
 
                
