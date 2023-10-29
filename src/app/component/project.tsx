@@ -5,8 +5,9 @@ import React from 'react';
 import { Tab } from '@headlessui/react'
 import Image from 'next/image';
 import THND from '/public/thnd.png'
+import PyThaiNLP from '/public/pythainlp.png'
 import {Button} from '../../../lib/tailwind'
-
+import Link from 'next/link';
 import { useState } from 'react'
 
 
@@ -29,8 +30,8 @@ export default function Project() {
         shareCount: 2,
         img_source: "/thnd.png",
         project_detail: "THND OCR (Thai National Documents) is an OCR tool for reading Thai national documents. This OCR tool is fine-tuned on Tesseract an open source with a training set of 50k sentences, in addition to, validations set of 10k sentences",
-        first_button: "<Button variant=filled' className='button-color button-text'><i className='fal fa-file-alt'></i>&nbsp; My SOP</Button>",
-        second_button: "",
+        first_button: "https://github.com/copninich/TH-National-Document-OCR",
+        second_button: "https://nlpforthai.com/tasks/ocr/",
       },
       {
         id: 2,
@@ -38,7 +39,7 @@ export default function Project() {
         date: '2h ago',
         commentCount: 3,
         shareCount: 2,
-        img_source: "/thnd.png",
+        img_source: "/AeraX.png",
         project_detail: "",
         first_button: "",
         second_button: "",
@@ -47,18 +48,51 @@ export default function Project() {
     "Machine Learning": [
       {
         id: 1,
-        title: 'Is tech making coffee better or worse?',
+        title: 'THND-ThaiHoo OCR',
         date: 'Jan 7',
         commentCount: 29,
         shareCount: 16,
-        img_source: "/public/thnd.png",
+        img_source: "/THND_OCR.png",
         project_detail: "",
         first_button: "",
         second_button: "",
       },
       {
         id: 2,
-        title: 'The most innovative things happening in coffee',
+        title: 'Urban Issue Image Detection By YoLo for Traffy Fondue Plus',
+        date: 'Mar 19',
+        commentCount: 24,
+        shareCount: 12,
+        img_source: "/Fondue_Urban.png",
+        project_detail: "",
+        first_button: "",
+        second_button: "",
+      },
+      {
+        id: 3,
+        title: 'Speech Emotions Recognition For MEMO Project',
+        date: 'Mar 19',
+        commentCount: 24,
+        shareCount: 12,
+        img_source: "/NSC_SER.png",
+        project_detail: "",
+        first_button: "",
+        second_button: "",
+      },
+      {
+        id: 4,
+        title: 'The Customization of Name Entity Recognition for Thai Annals',
+        date: 'Mar 19',
+        commentCount: 24,
+        shareCount: 12,
+        img_source: "/PongsawaML.png",
+        project_detail: "",
+        first_button: "",
+        second_button: "",
+      },
+      {
+        id: 5,
+        title: '',
         date: 'Mar 19',
         commentCount: 24,
         shareCount: 12,
@@ -67,26 +101,105 @@ export default function Project() {
         first_button: "",
         second_button: "",
       },
+
     ],
     "Web Develop": [
       {
         id: 1,
-        title: 'Ask Me Anything: 10 answers to your questions about coffee',
+        title: 'The 1st National Basic STEM Innovation E-FORUM 2021',
         date: '2d ago',
         commentCount: 9,
         shareCount: 5,
-        img_source: "/public/thnd.png",
+        img_source: "/STEM_2021.png",
         project_detail: "",
         first_button: "",
         second_button: "",
       },
       {
         id: 2,
-        title: "The worst advice we've ever heard about coffee",
+        title: "Certificate of The 2nd National Basic STEM Innovation Hybrid Forum 2022",
         date: '4d ago',
         commentCount: 1,
         shareCount: 2,
-        img_source: "/public/thnd.png",
+        img_source: "/STEM_2022.png",
+        project_detail: "",
+        first_button: "",
+        second_button: "",
+      },
+      {
+        id: 3,
+        title: "The Mockup Parliament of Chulalongkorn University 2023",
+        date: '4d ago',
+        commentCount: 1,
+        shareCount: 2,
+        img_source: "/CU_Parliament.jpeg",
+        project_detail: "",
+        first_button: "",
+        second_button: "",
+      },
+      {
+        id: 4,
+        title: "Farmer Market 4.0",
+        date: '4d ago',
+        commentCount: 1,
+        shareCount: 2,
+        img_source: "/NSC_Web.png",
+        project_detail: "",
+        first_button: "",
+        second_button: "",
+      },
+      {
+        id: 5,
+        title: "Yupparaj Wittayalai School Official Website (Front-end)",
+        date: '4d ago',
+        commentCount: 1,
+        shareCount: 2,
+        img_source: "/YRC_Web.jpeg",
+        project_detail: "",
+        first_button: "",
+        second_button: "",
+      },
+
+      {
+        id: 6,
+        title: "Yupparaj's Electronic Voting System 2020 Edition",
+        date: '4d ago',
+        commentCount: 1,
+        shareCount: 2,
+        img_source: "/YRC_Vote.png",
+        project_detail: "",
+        first_button: "",
+        second_button: "",
+      },
+      {
+        id: 7,
+        title: "Yupparaj Electronic Documents (Beta Version)",
+        date: '4d ago',
+        commentCount: 1,
+        shareCount: 2,
+        img_source: "/YRC_E-docs.png",
+        project_detail: "",
+        first_button: "",
+        second_button: "",
+      },
+      {
+        id: 8,
+        title: "The C language learning Platfrom for YRC Students",
+        date: '4d ago',
+        commentCount: 1,
+        shareCount: 2,
+        img_source: "/YRC_C.png",
+        project_detail: "",
+        first_button: "",
+        second_button: "",
+      },
+      {
+        id: 9,
+        title: "Yupparaj's Next.js official website (Beta Version)",
+        date: '4d ago',
+        commentCount: 1,
+        shareCount: 2,
+        img_source: "/YRC_Next.png",
         project_detail: "",
         first_button: "",
         second_button: "",
@@ -95,18 +208,18 @@ export default function Project() {
     "Microcontroller": [
       {
         id: 1,
-        title: 'Ask Me Anything: 10 answers to your questions about coffee',
+        title: 'MEMO Box based on Raspberry Pi 4',
         date: '2d ago',
         commentCount: 9,
         shareCount: 5,
-        img_source: "/public/thnd.png",
+        img_source: "/MEMO_Box.png",
         project_detail: "",
         first_button: "",
         second_button: "",
       },
       {
         id: 2,
-        title: "The worst advice we've ever heard about coffee",
+        title: "Arduino RB3",
         date: '4d ago',
         commentCount: 1,
         shareCount: 2,
@@ -158,7 +271,7 @@ export default function Project() {
                       {posts.map((post) => (
 
 
-                        <div key={post.id} className="w-full rounded-[20px] border-2 dark:border-[#94a3b8] shadow pb-16 mb-10 mt-10">
+                        <div key={post.id} className="w-full rounded-[20px] border-2 dark:border-[#94a3b8] shadow pb-16 mb-10 mt-10 animate-fade-up animate-once">
    
                                 <Image 
                                   src={post.img_source}
@@ -173,8 +286,19 @@ export default function Project() {
                                 <div className='px-6'>
                                   <p className='text-xl mt-7 font-semibold'>{post.title}</p>
                                   <p className='mt-3 text-justify'>{post.project_detail}</p>
-                                  
-                                  <Button variant="filled" className='button-color button-text mt-3'><i className="fab fa-github text-white" style={{fontSize:"14px"}}></i>&nbsp; Github Repository</Button>
+                                  <Link href={post.first_button}>
+                                    <Button variant="filled" className='button-color bg-[#192635] border-4 border-[#192635] button-text mt-3'><i className="fab fa-github text-white" style={{fontSize:"14px"}}></i>&nbsp; Github Repository</Button>
+                                  </Link>
+                                  {post.second_button === ''?(
+                                    <></>
+                                  ): (
+                                    <Link href={post.second_button}>
+                                      <Button variant="filled" className='border-2 border-[#192635] text-dark button-color ml-2 button-text mt-3'>
+                                        <Image width={20} height={20} alt="" className='del' src={PyThaiNLP} />
+                                        NLP For Thai           
+                                      </Button>
+                                    </Link>
+                                  )}
                                 </div>
 
                         </div>

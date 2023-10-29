@@ -1,17 +1,19 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Poppins } from 'next/font/google'
-import MySOP from './component/sop'
 import {Button} from '@material-tailwind/react'
-import Footer from './component/footer'
-import Navbar from './component/navbar'
-import Banner from './component/banner'
-import ThingsILove from './component/things'
-import Skill from './component/skill'
+import MySOP from './component/SOP'
+import Footer from './component/Footer'
+import Navbar from './component/Navbar'
+import Banner from './component/Banner'
+import ThingsILove from './component/ThingsILove'
+import Skill from './component/Skill'
 import Experience from './component/Experience'
-import Project from './component/project'
-import Recommendation from './component/recommendation'
+import Project from './component/Project'
+import Recommendation from './component/Recommendation'
 import Providers from './provider'
+import Loading from './loading'
+import { Suspense } from 'react'
 
 
 
@@ -28,7 +30,6 @@ export const metadata: Metadata = {
 
 
 export default function RootLayout({
-  
   children,
 }: {
   children: React.ReactNode
@@ -39,21 +40,21 @@ export default function RootLayout({
         <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet" />
       </head>
       <body className={poppins.className}>
+      
         <Providers>
-          <Navbar/>
-          <Banner/>
-          <ThingsILove/>
-          <Skill />
-          <Experience/>
-          <Project/>
-          <Recommendation/>
-          <MySOP/>
-          <Footer/>
-          {children}
+          
+            <Navbar/>
+            <Banner />
+            <ThingsILove/>
+            <Skill />
+            <Experience/>
+            <Project/>
+            <Recommendation/>
+            <MySOP/>
+            <Footer/>
+          
         </Providers>
 
-
-        {children}
       </body>
     </html>
   )

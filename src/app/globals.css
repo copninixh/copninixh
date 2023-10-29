@@ -60,3 +60,9 @@ body {
 .mt-top{
   margin-top: -5px;
 }
+
+img.del {
+  display: inline-block;
+  cursor: pointer;
+      position: relative;
+  }

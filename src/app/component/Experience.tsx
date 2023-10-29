@@ -26,14 +26,11 @@ const Experience = () => {
                               <h4 className="mb-1.5 text-xl font-semibold">Contributor</h4>
                               <h5>Traffy Fondue Platform </h5>
                               <p className="mb-3 text-neutral-500 dark:text-neutral-300">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-                                scelerisque diam non nisi semper, et elementum lorem ornare.
-                                Maecenas placerat facilisis mollis. Duis sagittis ligula in
-                                sodales vehicula.
+                              We used The Fondue Dataset, consisting of approximately 120,000 images, to develop an object detection model for urban issues.
                               </p>
                             </div>
                           </li>
-                          {/*First item*/}
+
                           <li>
                             <div className="flex-start flex items-center pt-3">
                               <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500" />
@@ -45,14 +42,12 @@ const Experience = () => {
                               <h4 className="mb-1.5 text-xl font-semibold">Teaching Assistant (TA)</h4>
                               <h5>AI Builders</h5>
                               <p className="mb-3 text-neutral-500 dark:text-neutral-300">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-                                scelerisque diam non nisi semper, et elementum lorem ornare.
-                                Maecenas placerat facilisis mollis. Duis sagittis ligula in
-                                sodales vehicula.
+                               I worked as a teaching assistant for the AI Builders 2022 and 2023 programs at Flawless-Robots and Priceless-Warhawks with mentors from VISTEC and TMLC.
                               </p>
                             </div>
                           </li>
-                          {/*Second item*/}
+
+
                           <li>
                             <div className="flex-start flex items-center pt-2">
                               <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500" />
@@ -64,9 +59,7 @@ const Experience = () => {
                               <h4 className="mb-1.5 text-xl font-semibold">Deputy Head of Data and Technology</h4>
                               <h5>Chula Politics Lab</h5>
                               <p className="mb-3 text-neutral-500 dark:text-neutral-300">
-                                Libero expedita explicabo eius fugiat quia aspernatur autem
-                                laudantium error architecto recusandae natus sapiente sit nam
-                                eaque, consectetur porro molestiae ipsam an deleniti.
+                              It is the responsibility of individuals to plan and develop new features for data analysis and represent them through visualizations.
                               </p>
                             </div>
                           </li>
@@ -77,7 +70,6 @@ const Experience = () => {
 
                     <div className="w-full rounded-[20px] border-2 border-black dark:border-[#94a3b8] border-opacity-10 px-4 md:px-16 pt-16 pb-16">
                         <ol className="border-l border-neutral-300 dark:border-neutral-500">
-                                                    {/*Third item*/}
                           <li>
                             <div className="flex-start flex items-center pt-2">
                               <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500" />
@@ -89,10 +81,7 @@ const Experience = () => {
                               <h4 className="mb-1.5 text-xl font-semibold">Project Manager</h4>
                               <h5>Chula Mockup Parliament 2023</h5>
                               <p className="mb-3 text-neutral-500 dark:text-neutral-300">
-                                Voluptatibus temporibus esse illum eum aspernatur, fugiat suscipit
-                                natus! Eum corporis illum nihil officiis tempore. Excepturi illo
-                                natus libero sit doloremque, laborum molestias rerum pariatur quam
-                                ipsam necessitatibus incidunt, explicabo.
+                                
                               </p>
                             </div>
                           </li>
@@ -108,10 +97,7 @@ const Experience = () => {
                               <h4 className="mb-1.5 text-xl font-semibold">Full Stack Developer</h4>
                               <h5>ESC</h5>
                               <p className="mb-3 text-neutral-500 dark:text-neutral-300">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-                                scelerisque diam non nisi semper, et elementum lorem ornare.
-                                Maecenas placerat facilisis mollis. Duis sagittis ligula in
-                                sodales vehicula.
+                                
                               </p>
                             </div>
                           </li>

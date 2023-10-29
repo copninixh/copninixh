@@ -97,7 +97,7 @@ const Navbar = () => {
 
             <div className={
                 menuOpen
-                ? "fixed left-0 top-0 w-[100%] sm:hidden h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
+                ? "fixed left-0 top-0 w-[100%] sm:hidden h-screen bg-[#ecf0f3] dark:bg-[#121212] p-10 ease-in duration-500"
                 : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
             }
             >
