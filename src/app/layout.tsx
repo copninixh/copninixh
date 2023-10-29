@@ -12,7 +12,6 @@ import Experience from './component/Experience'
 import Project from './component/Project'
 import Recommendation from './component/Recommendation'
 import Providers from './provider'
-import Loading from './loading'
 import { Suspense } from 'react'
 
 
