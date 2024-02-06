@@ -12,9 +12,9 @@
 
 <a href="https://github.com/yrctech">@YRCTECH</a> as Main contributor [2019-2021]
 
-<a href="#">@ESC-CU</a> [2022-present]
+<a href="#">@ESC-CU</a> [2022]
 
-<a href="https://github.com/Chula-Politics-Lab">@ChulaPoliticsLab</a> as Main contributor [2022-present]
+<a href="https://github.com/Chula-Politics-Lab">@ChulaPoliticsLab</a> as Main contributor [2022-May 2023]
 <hr/>
 
 
