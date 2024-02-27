@@ -4,18 +4,11 @@
 
 - 🌱 &nbsp;I’m currently learning NLP, ML, DL
 - 🔭 &nbsp;I’m currently working on NLP
-- 💬 &nbsp;Ask me about anything related to ML/DL/NLP/OCR/Web dev/Programing
+- 💬 &nbsp;Ask me about anything related to ML/DL/NLP/OCR/Web dev/Programming
 - 👨‍💻 &nbsp; Read more about my projects at <a href="copninich.com">here</a>
 - ⚡ &nbsp;Fun fact
 
-<b>Organizations</b>
 
-<a href="https://github.com/yrctech">@YRCTECH</a> as Main contributor [2019-2021]
-
-<a href="#">@ESC-CU</a> [2022]
-
-<a href="https://github.com/Chula-Politics-Lab">@ChulaPoliticsLab</a> as Main contributor [2022-May 2023]
-<hr/>
 
 
 
