@@ -1,11 +1,11 @@
-<p align="center"><img src="copninich_logo.gif" width="75%"/></p>
-<h3 align="center">Sawasdee Hi I'm Cop</h3>
+<p align="center"><img src="copninixh_gif.gif" width="75%"/></p>
+<h3 align="center">Hello, Bonjour, Sawasdee I'm Cop(ninixh)</h3>
 <hr/>
 
 - 🌱 &nbsp;I’m currently learning NLP, ML, DL
 - 🔭 &nbsp;I’m currently working on NLP
 - 💬 &nbsp;Ask me about anything related to ML/DL/NLP/OCR/Web dev/Programming
-- 👨‍💻 &nbsp; Read more about my projects at <a href="copninich.com">here</a>
+- 👨‍💻 &nbsp; Read more about my projects at <a href="kampanartch.com">here</a>
 - ⚡ &nbsp;Fun fact
 
 
