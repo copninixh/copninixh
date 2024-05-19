@@ -6,7 +6,7 @@
 - 🔭 &nbsp;I’m currently working on NLP
 - 💬 &nbsp;Ask me about anything related to ML/DL/NLP/OCR/Web dev/Programming
 - 👨‍💻 &nbsp; Read more about my projects at <a href="https://kampanartch.com">here</a>
-- ⚡ &nbsp;Fun fact
+- ⚡ &nbsp; I am currently studying at Chulalongkorn U.
 
 
 
