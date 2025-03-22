@@ -1,6 +1,6 @@
 <h3 align="center">Hello, Bonjour, Sawasdee I'm Cop(Ninixh)</h3>
 <p align="center"><img src="Cover_2025.png"/></p>
-<hr/>
+
 
 - 🌱 &nbsp;I’m currently learning NLP, ML, DL
 - 🔭 &nbsp;I’m currently working on NLP
