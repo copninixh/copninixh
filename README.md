@@ -1,4 +1,4 @@
-<p align="center"><img src="copninixh_gif.gif" width="85%"/></p>
+<p align="center"><img src="gtihub.png" width="85%"/></p>
 <h3 align="center">Hello, Bonjour, Sawasdee I'm Cop(ninixh)</h3>
 <hr/>
 
