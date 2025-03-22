@@ -1,4 +1,4 @@
-<p align="center"><img src="gtihub.png"/></p>
+<p align="center"><img src="Cover_2025.png"/></p>
 <h3 align="center">Hello, Bonjour, Sawasdee I'm Cop(ninixh)</h3>
 <hr/>
 
