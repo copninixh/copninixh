@@ -1,5 +1,5 @@
+<h3 align="center">Hello, Bonjour, Sawasdee I'm Cop(Ninixh)</h3>
 <p align="center"><img src="Cover_2025.png"/></p>
-<h3 align="center">Hello, Bonjour, Sawasdee I'm Cop(ninixh)</h3>
 <hr/>
 
 - 🌱 &nbsp;I’m currently learning NLP, ML, DL
